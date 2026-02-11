@@ -1,0 +1,37 @@
+node_modules/
+
+# Dependências gerais
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Cypress
+cypress/downloads/
+cypress/videos/
+cypress/screenshots/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivo de aplicação
+dist
+build
