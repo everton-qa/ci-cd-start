@@ -1,8 +1,8 @@
 name: Cypress Tests
 
 on: 
-  schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight
+ schedule:
+   - cron: '0 0 * 1 *' # Runs every day at midnight
 
 jobs:
   cypress-run:
